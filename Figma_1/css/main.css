@@ -1,0 +1,1090 @@
+/* BISMILLAH */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Main-header styles */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.493);
+  margin-bottom: 54px;
+  background: white;
+}
+
+.navigation {
+  width: 1140px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.navigation2 {
+  display: flex;
+  height: 100%;
+}
+
+.navigation__image {
+  margin-top: 4px;
+  margin-right: 177px;
+}
+
+.navigation_items {
+  width: 573px;
+  height: 23px;
+  display: flex;
+  margin-top: 6px;
+  margin-right: 157px;
+}
+
+.navigation__items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.navigation__item {
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.navigation__item:hover {
+  color: var(--c-72535, #C72535);
+  cursor: pointer;
+}
+
+.navigation__icons {
+  width: 110px;
+  height: 100%;
+}
+
+.search__icon {
+  margin-right: 13px;
+  margin-bottom: 9.5px;
+  cursor: pointer;
+}
+
+.market__icon {
+  margin-right: 13px;
+  margin-bottom: 9.5px;
+  cursor: pointer;
+}
+
+.person__icon {
+  cursor: pointer;
+}
+
+/* Hero section styles */
+
+.hero__section {
+  margin-top: 144px;
+  width: 1236px;
+  height: 811px;
+  background: url(../images/hero\ image.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-bottom: 110px;
+}
+
+.hero__info {
+  padding-top: 75px;
+  width: 713px;
+  height: 426px;
+  margin-bottom: 73px;
+}
+
+.hero__info__title1 {
+  margin: 0;
+  width: 166px;
+  flex-direction: column;
+  color: #dd7c86;
+  font-family: 'Hind Siliguri';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.hero__info__title {
+  margin: 0;
+  display: flex;
+  width: 555px;
+  flex-direction: column;
+  font-family: 'Hind Siliguri';
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 73.2px;
+  margin-bottom: 29px;
+}
+
+.span__title {
+  width: 474px;
+  height: 73px;
+  color: #247CC0;
+  background: #eaf2f9;
+}
+
+.hero__info__subtitle {
+  margin: 0;
+  display: flex;
+  width: 515px;
+  flex-direction: column;
+  color: #686e73;
+  font-family: 'Hind Siliguri';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 36px;
+}
+
+.button {
+  width: 151px;
+  height: 58px;
+  background: #247CC0;
+  color: #FFF;
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-right: 31px;
+}
+
+.price1 {
+  width: 71px;
+  height: 27px;
+  display: inline-block;
+  margin: 0;
+  color: #030D15;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  margin-right: 18px;
+}
+
+.price2 {
+  width: 55px;
+  height: 27px;
+  display: inline-block;
+  margin: 0;
+  color: #808589;
+  text-align: center;
+  font-style: underline;
+  font-family: 'Hind Siliguri';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.hero__partners {
+  width: 1140px;
+  height: 237px;
+  margin-left: 10px;
+  background: #FFF;
+  box-shadow: 0px -1.7396812438964844px 1.2053217887878418px 0px rgba(174, 174, 174, 0.02), 0px 0.19007934629917145px 4.14346981048584px 0px rgba(174, 174, 174, 0.03), 0px 6.772141456604004px 9.613308906555176px 0px rgba(174, 174, 174, 0.04), 0px 19.84010124206543px 19.140562057495117px 0px rgba(174, 174, 174, 0.05), 0px 43.750999450683594px 36.44142150878906px 0px rgba(174, 174, 174, 0.06), 0px 100px 80px 0px rgba(174, 174, 174, 0.08);
+}
+
+.hero__images {
+  width: 904px;
+  height: 85px;
+  padding-top: 76px;
+  margin-left: 118px;
+}
+
+.partners__img {
+  margin-right: 80px;
+}
+
+/* Recent-product section styles */
+
+.recent-product__section {
+  width: 1133px;
+  height: 270px;
+  margin-bottom: 138px;
+  display: flex;
+  gap: 36px;
+}
+
+.recent-product__left {
+  display: flex;
+  width: 548px;
+  height: 100%;
+}
+
+.product__image {
+  margin-top: 22px;
+}
+
+.product__icon {
+  width: 44px;
+  height: 44px;
+  margin-left: -22px;
+  margin-right: 8px;
+}
+
+
+.product__info {
+  margin-top: 53px;
+  width: 256px;
+  height: 185.774px;
+}
+
+.product__info__title {
+  margin: 0;
+  margin-bottom: 9px;
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product__info__subtitle {
+  margin: 0;
+  display: flex;
+  width: 256px;
+  flex-direction: column;
+  color: #686e73;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.product1 {
+  margin-right: 2px;
+  margin-bottom: 8px;
+}
+
+.product11 {
+  margin-right: 2px;
+  color: #686e73;
+}
+
+.recent-product__right {
+  display: flex;
+  width: 548px;
+  height: 100%;
+}
+
+/* Special-offer section styles */
+
+.special-offer__section {
+  width: 100%;
+  height: 333.082px;
+  display: flex;
+  margin-bottom: 30px;
+  gap: 66px;
+}
+
+.special__left {
+  width: 535px;
+  height: 296px;
+  margin-top: 22px;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: linear-gradient(232deg, #008BF0 0%, #D943C9 100%);
+}
+
+.special__info {
+  width: 249px;
+  height: 147px;
+  margin-top: 75px;
+  margin-left: 35px;
+  /* background-color: aqua; */
+}
+
+.special__subtitle {
+  margin: 0;
+  width: 241px;
+  height: 27px;
+  margin-bottom: 5px;
+  color: #cbbaed;
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.special__title {
+  margin: 0;
+  margin-bottom: 13px;
+  display: flex;
+  width: 249px;
+  flex-direction: column;
+  color: var(--e-6-edf-2, #F4F9FC);
+  font-family: 'Hind Siliguri';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.3px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--e-6-edf-2, #F4F9FC);
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.special__right {
+  width: 535px;
+  height: 296px;
+  display: flex;
+  margin-top: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: linear-gradient(232deg, #008BF0 0%, #D943C9 100%);
+}
+
+.videocamera__image {
+  margin-top: 66px;
+  width: 238.117px;
+  height: 151.263px;
+  margin-left: -50px;
+}
+
+.dron__image {
+  margin-left: -50px;
+}
+
+
+/* About section styles */
+
+.about__section {
+  width: 100%;
+  height: 870px;
+  display: flex;
+  margin-bottom: 125px;
+}
+
+.about__info {
+  width: 378px;
+  height: 93px;
+  margin-left: 790px;
+  margin-top: 114px;
+}
+
+.about__subtitle {
+  margin: 0;
+  color: #dd7c86;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.03px;
+  text-transform: uppercase;
+}
+
+.about__title {
+  margin: 0;
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about__bottom {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  margin-left: -1140px;
+  margin-top: 238px;
+  background: var(--e-6-edf-2, #F4F9FC);
+}
+
+.bottom {
+  display: flex;
+}
+
+.about__bottom__info {
+  width: 457px;
+  height: 450px;
+}
+
+.about__bottom__subtitle {
+  color: #646c72;
+  display: flex;
+  width: 457px;
+  flex-direction: column;
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.info__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.info__item {
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.span__info77 {
+  margin-left: 23px;
+}
+
+
+
+.about__image {
+  margin-top: -173px;
+  margin-right: 117px;
+}
+
+
+
+/* Popular-product section styles */
+
+.popular-product__section {
+  width: 100%;
+  height: 1319px;
+  margin-bottom: 130px;
+}
+
+.popular__info {
+  width: 490px;
+  height: 138px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.popular__info__subtitle {
+  width: 123px;
+  height: 23px;
+  margin: 0 auto;
+  color: #dd7c86;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.03px;
+  text-transform: uppercase;
+}
+
+.popular__info__title {
+  margin: 0 auto;
+  width: 333px;
+  height: 71px;
+  color: var(--b, #030D15);
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.popular__items {
+  width: 490px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.popular__item {
+  color: #686e73;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.popular__item:hover {
+  color: var(--c-72535, #C72535);
+  cursor: pointer;
+}
+
+.popular__cards {
+  width: 100%;
+  height: 1036px;
+}
+
+.cards__top {
+  width: 100%;
+  height: 503px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.top__card1 {
+  width: 360px;
+  height: 503px;
+  background: #FFF;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(191, 191, 191, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(191, 191, 191, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(191, 191, 191, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(191, 191, 191, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(191, 191, 191, 0.05), 0px 100px 80px 0px rgba(191, 191, 191, 0.07);
+}
+
+.card1__image {
+  width: 286px;
+  height: 273px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 35px;
+  background-image: url(../images/mouse.png);
+}
+
+.card1__image2 {
+  width: 286px;
+  height: 273px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 72px;
+  background-image: url(../images/speaker.png);
+  background-repeat: no-repeat;
+  background-position: 15px 40px;
+}
+
+.card1__image3 {
+  width: 286px;
+  height: 273px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 72px;
+  background-image: url(../images/keyboard.png);
+  background-repeat: no-repeat;
+  background-position: 15px 40px;
+}
+
+.card1__image4 {
+  width: 286px;
+  height: 273px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 72px;
+  background-image: url(../images/macbook.png);
+  background-repeat: no-repeat;
+  background-position: 0px 40px;
+}
+
+.card1__image5 {
+  width: 286px;
+  height: 293px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 52px;
+  background-image: url(../images/headphone.png);
+  background-repeat: no-repeat;
+  background-position: 15px 40px;
+}
+
+.card1__image6 {
+  width: 286px;
+  height: 273px;
+  margin-top: 35px;
+  margin-left: 37px;
+  margin-bottom: 72px;
+  background-image: url(../images/iPhone\ speaker.png);
+  background-repeat: no-repeat;
+  background-position: 15px 40px;
+}
+
+.card1__title {
+  margin: 0;
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.cards__bottom {
+  width: 100%;
+  height: 503px;
+  display: flex;
+  gap: 30px;
+}
+
+.card1__bottom {
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.box {
+  display: flex;
+  gap: 45px;
+}
+
+.bottom__left {
+  width: 150px;
+  height: 50px;
+  margin-left: 35px;
+}
+
+.bottom__left2 {
+  width: 150px;
+  height: 50px;
+}
+
+.bottom__right {
+  width: 100px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.stars__image {
+  margin-left: -80px;
+}
+
+.card1__bottom__img1 {
+  margin-top: 27px;
+  margin-bottom: 31px;
+}
+
+.bottom__card1 {
+  width: 360px;
+  height: 503px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+}
+
+.card__info {
+  width: 236px;
+  height: 90px;
+  margin-left: 35px;
+}
+
+.card__info__title {
+  margin: 0;
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product11 {
+  color: var(--b, #030D15);
+}
+
+.popular__subtitle11 {
+  margin: 0;
+  margin-top: 56px;
+  text-transform: uppercase;
+  color: var(--b, #030D15);
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.popular__arrow {
+  margin-left: 10px;
+}
+
+
+
+/* Shop section styles */
+
+.shop__section {
+  width: 100%;
+  height: 1014px;
+  margin-bottom: 130px;
+}
+
+.shop__info2 {
+  width: 642px;
+  height: 148px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.shop__info__subtitle {
+  width: 123px;
+  height: 23px;
+  margin: 0 auto;
+  color: #dd7c86;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.03px;
+  text-transform: uppercase;
+}
+
+.title11 {
+  width: 641px;
+  height: 71px;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.shop__info__subtitle2 {
+  margin: 0 auto;
+  height: 48px;
+  color: #686e73;
+  display: flex;
+  width: 457px;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.shop__cards {
+  width: 100%;
+  height: 816px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.shop__price {
+  padding-top: 35px;
+  margin-left: 35px;
+  margin-bottom: 206px;
+}
+
+.shop__icons {
+  margin-left: 35px;
+}
+
+.shop__card1 {
+  width: 360px;
+  height: 330px;
+  background: #FFF;
+  background-image: url(../images/enormous1.png);
+  background-repeat: no-repeat;
+  background-position: 70px 70px;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card2 {
+  width: 360px;
+  height: 252px;
+  background: #fff;
+  background-image: url(../images/enormous2.png);
+  background-repeat: no-repeat;
+  background-position: 26px 18px;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card3 {
+  width: 360px;
+  height: 432px;
+  background: #fff;
+  background-image: url(../images/enormous3.png);
+  background-repeat: no-repeat;
+  background-position: 26px 36px;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card4 {
+  width: 360px;
+  height: 456px;
+  background: #fff;
+  margin-top: -102px;
+  background-image: url(../images/enormous4.png);
+  background-repeat: no-repeat;
+  background-position: 30px 53px;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card5 {
+  width: 360px;
+  height: 252px;
+  background: #fff;
+  margin-top: -180px;
+  background-image: url(../images/enormous5.svg);
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card6 {
+  width: 360px;
+  height: 354px;
+  background: #fff;
+  background-image: url(../images/enormous7.svg);
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.shop__card7 {
+  width: 360px;
+  height: 252px;
+  background: #fff;
+  background-image: url(../images/enormous6.png);
+  background-repeat: no-repeat;
+  background-position: 39px 27px;
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(192, 192, 192, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(192, 192, 192, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(192, 192, 192, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(192, 192, 192, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+}
+
+.card77 {
+  margin-top: -280px;
+  margin-left: 390px;
+}
+
+
+
+/* Contact section styles */
+
+.contact__section {
+  width: 100%;
+  height: 310px;
+  background: var(--e-6-edf-2, #F4F9FC);
+}
+
+.box2 {
+  display: flex;
+  gap: 300px;
+}
+
+.contact__info {
+  width: 360px;
+  height: 110px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact__span {
+  width: 117px;
+  height: 23px;
+  color: #dd7c86;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.03px;
+  text-transform: uppercase;
+}
+
+.contact__title {
+  margin: 0;
+  width: 345px;
+  height: 40px;
+  color: var(--b, #030D15);
+  font-family: 'Hind Siliguri';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact__subtitle {
+  margin: 0;
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #686e73;
+}
+
+
+.contact__button {
+  width: 457px;
+  height: 50px;
+  margin-top: 130px;
+  display: flex;
+}
+
+
+.contact__input {
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+  padding-right: 162px;
+  padding-left: 26px;
+}
+
+.btn11 {
+  width: 122px;
+  height: 50px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: -5px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+
+/* Footer styles */
+
+.footer {
+  width: 100%;
+  height: 396px;
+  display: flex;
+  background-color: #030D15;
+}
+
+.box__footer {
+  width: 1140px;
+  height: 265px;
+  display: flex;
+  gap: 32px;
+  margin-top: 75px;
+  margin-bottom: 56px;
+}
+
+.box__footer__logo {
+  width: 261px;
+  height: 157px;
+  margin-top: 5px;
+}
+
+.footer__logo {
+  margin-bottom: 22px;
+}
+
+.footer__subtitle1 {
+  margin: 0;
+  display: flex;
+  width: 261px;
+  flex-direction: column;
+  color: #9a9ea1;
+  font-family: 'Hind Siliguri';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box__footer__items1 {
+  width: 164px;
+  height: 265px;
+}
+
+.box__footer__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.active1 {
+  margin: 0;
+  display: flex;
+  width: 164px;
+  margin-bottom: 26px;
+  flex-direction: column;
+  color: #FFF;
+  font-family: 'Hind Siliguri';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.box__footer__item {
+  color: #9a9ea1;
+  display: flex;
+  width: 164px;
+  flex-direction: column;
+  font-family: 'Hind Siliguri';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.sub77 {
+  margin-bottom: 53px;
+}
+
+.footer__social__img {
+  width: 175px;
+  margin-bottom: 47px;
+}
+
+.box__footer__items2 {
+  width: 165px;
+  height: 265px;
+}
+
+.box__footer__items3 {
+  width: 165px;
+  height: 265px;
+}
+
+.box__footer__info {
+  width: 261px;
+  height: 265px;
+}
+
+/* 1090 QATOR KOD */
